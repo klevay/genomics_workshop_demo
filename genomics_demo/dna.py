@@ -21,12 +21,9 @@ class DNA:
 
     @property
     def gc_content(self):
-        return sum(nucleotide in 'GC' for nucleotide in self.sequence.upper())/len(self.sequence)
+        return (sum(nucleotide in 'GC' for nucleotide in self.sequence.upper())/len(self.sequence))
 
 
-
-    def gc_content(self):
-        return sum(nucleotide in 'GC' for nucleotide in self.sequence.upper())/len(self.sequence)
 
     @property
     def complimentary_sequence(self):

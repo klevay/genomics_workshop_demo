@@ -44,16 +44,5 @@ def test_transcribe():
 
 
 
-#def test_gc_content_sequence_works():
- #   assert DNA('GC').gc_content > 0.5
-def test_is_gc_rich():
-    assert DNA('GTGT').gc_content() == 0.5
- #   length = len(sequence)
-  #  c_count = sequence.upper().count('C')
-   # g_count = sequence.upp
 
-def test_gc_content():
-    assert DNA('ATTTATGGCC').gc_content == 0.4
-    assert DNA('AGGTATGGCC').gc_content == 0.6
-    assert DNA('ATAT').gc_content == 0
 
